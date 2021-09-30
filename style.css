@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(233, 170, 54);
+}
+
+
+
+#container{
+    display: block;
+    text-align: center;
+    border: solid 2px red;
+    width:50vw;
+    height: 100vh;
+    margin: auto auto;
+    padding: 2rem;
+    font-weight: bolder;
+    /* font-size: 3rem; */
+}
+label, input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 2rem;
+    font-size: larger;
+}
+#checkbtn{
+    margin: 2rem auto;
+    height: 2rem;
+    background-color: rgb(233, 170, 54);
+    font-size: larger;
+    border: solid 2px black;
+    border-radius: 2rem;
+    width: 20vw;
+    font-weight: bold;
+  
+
+}
