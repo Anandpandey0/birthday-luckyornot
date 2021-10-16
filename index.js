@@ -1,3 +1,4 @@
+
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const check = document.querySelector("#checkbtn")
@@ -42,4 +43,3 @@ function luckyornot(sum , luckyNumber){
     }
 
    
-}

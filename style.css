@@ -1,3 +1,4 @@
+
 body{
     background-color:rgb(233, 170, 54);
 }
@@ -30,7 +31,6 @@ label, input {
     border: solid 2px black;
     border-radius: 2rem;
     width: 20vw;
-    font-weight: bold;
+    font-weight: bold;}
   
 
-}
