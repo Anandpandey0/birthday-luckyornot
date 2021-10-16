@@ -1,11 +1,10 @@
-
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const check = document.querySelector("#checkbtn")
 
 check.addEventListener("click", checkNumberIsLucky);
 
-//Sorry for the comments but it is for my knowledge , so that I can easily go through this code anytime without getting into any truble
+//Sorry for the comments but it is for my knowledge , so that I can easily go through this code anytime without getting into any trouble.//
 function checkNumberIsLucky() {
     // console.log(dateOfBirth.value);
     // console.log(luckyNumber.value)
@@ -31,7 +30,7 @@ function calculateSum(dob) {
 function luckyornot(sum , luckyNumber){
     const luckynumber = Number(luckyNumber.value);
     if(luckynumber>0){
-        if ((sum%luckynumber) == 0){
+        if ((sum % luckynumber) == 0){
             document.getElementById("output").innerHTML = "Yes , It is lucky";
         }
         else{
@@ -43,3 +42,4 @@ function luckyornot(sum , luckyNumber){
     }
 
    
+}
